@@ -39,7 +39,7 @@ use some minimal support code from
 the XStatic base package, if you like.
 
 %prep
-%setup -q -n %{pypi_name}-%{version}
+%setup -q -n %{pypi_name}-%{upstream_version}
 # Remove bundled egg-info
 rm -rf %{pypi_name}.egg-info
 
